@@ -8,11 +8,13 @@
 <https://www.bilibili.com/video/BV1P5411Y7xu>
 
 #### 零件列表
-Arduino Pro Micro * 1
-1MΩ（1兆欧）电阻 * 2
-面包板 * 1
-面包板跳线 * 若干
-用来当按键的水果或者其他导体 * 2
+| 名称 | 数量 |
+| ---- | ---- |
+| Arduino Pro Micro | 1 |
+| 1MΩ（1兆欧）电阻 | 2 |
+| 面包板 | 1 |
+| 面包板跳线 | 若干 |
+| 用来当按键的水果或者其他导体 | 2 |
 
 #### 实物连接图
 ![实物连接图](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/1.jpg)
