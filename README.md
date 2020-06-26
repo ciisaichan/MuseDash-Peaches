@@ -15,6 +15,7 @@
 | 面包板 | 1 |
 | 面包板跳线 | 若干 |
 | 用来当按键的水果或者其他导体 | 2 |
+| 勇于折腾的心w | 1 |
 
 #### 实物连接图
 ![实物连接图](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/1.jpg)
