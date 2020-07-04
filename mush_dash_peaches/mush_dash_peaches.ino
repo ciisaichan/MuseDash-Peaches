@@ -8,16 +8,16 @@ bool f_push = false;
 bool j_push = false;
 
 //按键按下电容阈值 （大于此值时）
-long press_val = 600;
+long press_val = 700;
 //按键释放电容阈值（小于此值时）
-long release_val = 400;
+long release_val = 600;
 
 void setup()
 {
   Serial.begin(9600);
   Keyboard.begin();
-  cs_f.set_CS_Timeout_Millis(30);
-  cs_j.set_CS_Timeout_Millis(30);
+  cs_f.set_CS_Timeout_Millis(5);
+  cs_j.set_CS_Timeout_Millis(5);
 
 }
 
@@ -25,15 +25,14 @@ void loop()
 {
   long cp1 =  cs_f.capacitiveSensor(30);
   long cp2 =  cs_j.capacitiveSensor(30);
-
+  
   if (cp1 == -2) {
-    cp1 = 8000;
+    cp1 = 1200;
   }
   if (cp2 == -2) {
-    cp2 = 8000;
+    cp2 = 1200;
   }
-
-  /* debug
+  /*
     Serial.print(cp1);
     Serial.print("\t");
     Serial.println(cp2);
