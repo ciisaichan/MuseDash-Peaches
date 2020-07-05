@@ -23,21 +23,10 @@ void setup()
 
 void loop()
 {
-  long cp1 =  cs_f.capacitiveSensor(30);
-  long cp2 =  cs_j.capacitiveSensor(30);
-  
+  long cp1 =  cs_f.capacitiveSensor(50);
   if (cp1 == -2) {
     cp1 = 1200;
   }
-  if (cp2 == -2) {
-    cp2 = 1200;
-  }
-  /*
-    Serial.print(cp1);
-    Serial.print("\t");
-    Serial.println(cp2);
-  */
-
   if (cp1 > press_val && !f_push) {
     Keyboard.press('f');
     f_push = true;
@@ -46,6 +35,10 @@ void loop()
     f_push = false;
   }
 
+  long cp2 =  cs_j.capacitiveSensor(50);
+  if (cp2 == -2) {
+    cp2 = 1200;
+  }
   if (cp2 > press_val && !j_push) {
     Keyboard.press('j');
     j_push = true;
@@ -53,6 +46,10 @@ void loop()
     Keyboard.release('j');
     j_push = false;
   }
-
-  //delay(10);
+  /*
+    Serial.print(cp1);
+    Serial.print("\t");
+    Serial.println(cp2);
+    delay(10);
+  */
 }
