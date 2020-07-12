@@ -22,11 +22,12 @@
 此方法制作简单成本低，也可以方便的修改电路，推荐萌新尝试，缺点是容易接触不良；电路连接方法见下方的原理图。
 ![面包板棚搭法](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/bread_board.jpg)
 
-2. #### PCB 电路板
+2. ##### PCB 电路板
 此方法制作的为成品，连接稳定，美观，缺点是制作难度较大，需要找PCB厂家定制，一旦出现问题需要重新打板，需要一定的焊接能力。
 ![PCB成品](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/IMG_20200711_163708.jpg)
 
-电路连接原理图，左边连接到单片机的对应引脚，右边为各个触摸电极；其中名称为 NUP2105LT1G 的零件用于静电防护，为可选部件。
+#### 原理图
+左边连接到单片机的对应引脚，右边为各个触摸电极；其中名称为 NUP2105LT1G 的零件用于静电防护，为可选部件。
 ![原理图](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/musedash-peaches_sch.jpg)
 
 #### 必要零件列表
