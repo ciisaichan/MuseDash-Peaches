@@ -7,6 +7,8 @@
 
 #### 视频
 <https://www.bilibili.com/video/BV1Vz4y1D726>
+
+
 <https://www.bilibili.com/video/BV1P5411Y7xu>
 
 #### 目录
@@ -16,10 +18,10 @@
 - [images](https://github.com/ciisaichan/MuseDash-Peaches/tree/master/images "images") - 介绍用的图片资源
 
 #### 制作方法
-1. #####面包板棚搭
+1. ##### 面包板棚搭
 此方法制作简单成本低，也可以方便的修改电路，推荐萌新尝试，缺点是容易接触不良；电路连接方法见下方的原理图。
-![面包板棚搭法](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/20200712140900.jpg)
-2. #####PCB 电路板
+![面包板棚搭法](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/bread_board.jpg)
+2. ##### PCB 电路板
 此方法制作的为成品，连接稳定，美观，缺点是制作难度较大，需要找PCB厂家定制，一旦出现问题需要重新打板，需要一定的焊接能力。
 ![PCB成品](https://raw.githubusercontent.com/ciisaichan/MuseDash-Peaches/master/images/IMG_20200711_163708.jpg)
 
